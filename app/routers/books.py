@@ -1,5 +1,5 @@
 from fastapi import APIRouter
-from models.book import Book, CreateBook
+from app.models.book import Book, CreateBook
 from fastapi import HTTPException
 
 
